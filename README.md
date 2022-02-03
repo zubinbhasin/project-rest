@@ -10,9 +10,9 @@ npm i
 
 ## Quick Start
 
-To start on production env: yarn start 
-To start on use dev env: yarn dev 
-For testing using jest: yarn test 
+To start on production env: yarn start  <br>
+To start on use dev env: yarn dev <br>
+For testing using jest: yarn test <br>
 
 ##
 
@@ -20,7 +20,7 @@ For testing using jest: yarn test
 /v1/records?startDate=2016-01-01&endDate=2018-02-02&minCount=2700&maxCount=3000
 
 # query
-startDate - “YYYY-MM-DD” format
-endDate - “YYYY-MM-DD” format
-minCount - minimum sum of elemets of count array for records
-maxCount - maximum sum of elemets of count array for records
+startDate - “YYYY-MM-DD” format <br>
+endDate - “YYYY-MM-DD” format <br>
+minCount - minimum sum of elemets of count array for records <br>
+maxCount - maximum sum of elemets of count array for records <br>
