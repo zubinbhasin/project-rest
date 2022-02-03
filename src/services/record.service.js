@@ -12,6 +12,7 @@ const ApiError = require('../utils/ApiError')
  * @returns {Promise<QueryResult>}
  */
 const queryRecords = async (startDate, endDate, minCount, maxCount) => {
+  // using find query instead of aggregate since it is faster
   const records = await Record.find({
     createdAt: { $gte: new Date(startDate).toISOString(), $lte: new Date(endDate).toISOString() },
     $expr: {
