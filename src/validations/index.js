@@ -1,1 +1,1 @@
-module.exports.recordValidation = require('./record.validation');
+module.exports.recordValidation = require('./record.validation')
