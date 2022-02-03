@@ -6,7 +6,7 @@ Get API to fetch filtered records from mongo
 git clone https://github.com/zubinbhasin/project-rest.git
 
 # Dependencies 
-npm i
+yarn install
 
 ## Quick Start
 
